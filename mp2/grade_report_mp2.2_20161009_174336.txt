@@ -1,0 +1,38 @@
+grade report for dyang35
+
+2.2.1 SQL INJECTION
+grade for 2.2.1.1: 5/5
+comment for 2.2.1.1: Success
+grade for 2.2.1.2: 5/5
+comment for 2.2.1.2: Success
+grade for 2.2.1.3: 10/10
+comment for 2.2.1.3: Success
+grade for 2.2.1.4: 10/10
+comment for 2.2.1.4: 
+TOTAL: 30.0/30
+
+2.2.2 CSRF
+grade for 2.2.2.1: 10/10
+comment for 2.2.2.1: 
+grade for 2.2.2.2: 3/10
+comment for 2.2.2.2: Have to refresh for it to work and an alert pops up the second time
+TOTAL: 13.0/20
+
+2.2.3 XSS
+grade for 2.2.3.1: 5/5
+comment for 2.2.3.1: passed
+submission of 2.2.3.2_payload.html: 4/4
+comment for 2.2.3.2_payload.html: 
+grade for 2.2.3.2: 17/21
+comment for 2.2.3.2: Stealth: URL hiding; Persistence: back button; Url does not change when you click search again. The back button skips the home page. The logout event log does not state who logged off
+grade for 2.2.3.3: 4.0/5
+comment for 2.2.3.3: User does not get logged in logout event. URL does not change when you press search again
+grade for 2.2.3.4: 4.0/5
+comment for 2.2.3.4: Url shows attack when you first click itUser does not get logged in logout event. URL does not change when you press search again
+grade for 2.2.3.5: 4.0/5
+comment for 2.2.3.5: Url shows attack when you first click itUser does not get logged in logout event. URL does not change when you press search again
+grade for 2.2.3.6: 4.0/5
+comment for 2.2.3.6: User does not get logged in logout event. URL does not change when you press search again
+TOTAL: 42.0/50
+
+TOTAL: 85.0/100

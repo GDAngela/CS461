@@ -1,0 +1,677 @@
+Nov  2 06:03:42 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 06:03:42 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 06:03:43 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  2 06:03:43 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  2 06:03:44 wh1t3r0s3-laptop dbus[744]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.16" (uid=103 pid=1130 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.14" (uid=0 pid=1051 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  2 06:03:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 06:03:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 06:03:45 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  2 06:04:39 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Nov  2 06:04:39 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  2 06:04:39 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  2 06:04:40 wh1t3r0s3-laptop gnome-keyring-daemon[1352]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  2 06:04:40 wh1t3r0s3-laptop gnome-keyring-daemon[1352]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  2 06:04:42 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.20 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  2 06:06:04 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  2 06:06:04 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:06:09 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:06:15 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov  2 06:06:15 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:11:56 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.20 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  2 06:13:37 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:13:44 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/sbin/reboot now
+Nov  2 06:13:45 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:13:45 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:14:26 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 06:14:26 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 06:14:27 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  2 06:14:27 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  2 06:14:30 wh1t3r0s3-laptop dbus[710]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.17" (uid=103 pid=1226 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.15" (uid=0 pid=1147 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  2 06:14:30 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 06:14:30 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 06:14:30 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  2 06:14:50 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Nov  2 06:14:50 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  2 06:14:50 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  2 06:14:51 wh1t3r0s3-laptop gnome-keyring-daemon[1448]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  2 06:14:51 wh1t3r0s3-laptop gnome-keyring-daemon[1448]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  2 06:14:54 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  2 06:15:15 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  2 06:15:15 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:15:30 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:15:33 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get clean
+Nov  2 06:15:33 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:15:33 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:15:36 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get autoclean
+Nov  2 06:15:36 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:15:40 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:15:43 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get remove
+Nov  2 06:15:43 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:15:43 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:15:45 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Nov  2 06:15:45 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:15:46 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:16:42 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get install vim
+Nov  2 06:16:42 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:17:01 wh1t3r0s3-laptop CRON[2064]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 06:17:01 wh1t3r0s3-laptop CRON[2064]: pam_unix(cron:session): session closed for user root
+Nov  2 06:17:02 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:17:12 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/vim /etc/grub.d/40_custom
+Nov  2 06:17:12 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:18:11 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:18:42 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/vim /boot/grub/grub.cfg
+Nov  2 06:18:42 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:19:24 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:19:38 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/vim /etc/default/grub
+Nov  2 06:19:38 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:19:50 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:19:57 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/sbin/update-grub
+Nov  2 06:19:57 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:20:01 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:20:11 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/sbin/reboot now
+Nov  2 06:20:11 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  2 06:20:11 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 06:20:37 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 06:20:37 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 06:20:37 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  2 06:20:37 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  2 06:20:38 wh1t3r0s3-laptop dbus[543]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.15" (uid=103 pid=1071 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.12" (uid=0 pid=992 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  2 06:20:38 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 06:20:38 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 06:20:38 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  2 19:22:37 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 19:22:37 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 19:22:37 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  2 19:22:37 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  2 19:22:37 wh1t3r0s3-laptop dbus[583]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.14" (uid=103 pid=1091 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.12" (uid=0 pid=1012 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  2 19:22:37 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  2 19:22:37 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  2 19:22:37 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  2 19:22:45 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Nov  2 19:22:45 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  2 19:22:45 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  2 19:22:45 wh1t3r0s3-laptop gnome-keyring-daemon[1386]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  2 19:22:45 wh1t3r0s3-laptop gnome-keyring-daemon[1386]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  2 19:22:45 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  3 13:15:21 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 13:15:21 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 13:15:21 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  3 13:15:21 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 13:15:22 wh1t3r0s3-laptop dbus[497]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.15" (uid=103 pid=1108 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1029 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  3 13:15:22 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 13:15:22 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 13:15:22 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  3 13:17:01 wh1t3r0s3-laptop CRON[1346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 13:17:01 wh1t3r0s3-laptop CRON[1346]: pam_unix(cron:session): session closed for user root
+Nov  3 13:27:46 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Nov  3 13:27:46 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  3 13:27:46 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 13:27:46 wh1t3r0s3-laptop gnome-keyring-daemon[1482]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 13:27:46 wh1t3r0s3-laptop gnome-keyring-daemon[1482]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 13:27:46 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  3 18:10:47 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 18:10:47 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 18:10:47 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  3 18:10:47 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 18:10:48 wh1t3r0s3-laptop dbus[559]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.15" (uid=103 pid=1102 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.12" (uid=0 pid=1022 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  3 18:10:48 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 18:10:48 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 18:10:48 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  3 18:10:56 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Nov  3 18:10:56 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  3 18:10:56 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 18:10:56 wh1t3r0s3-laptop gnome-keyring-daemon[1393]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 18:10:56 wh1t3r0s3-laptop gnome-keyring-daemon[1393]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 18:10:56 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  3 18:11:30 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get remove --purge chromium-browser
+Nov  3 18:11:30 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:12:12 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:13:59 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get install nmap
+Nov  3 18:13:59 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:14:07 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:15:24 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get install build-essential
+Nov  3 18:15:24 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:15:52 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:16:41 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get install libssl-dev
+Nov  3 18:16:41 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:16:50 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:17:01 wh1t3r0s3-laptop CRON[9964]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  3 18:17:01 wh1t3r0s3-laptop CRON[9964]: pam_unix(cron:session): session closed for user root
+Nov  3 18:30:40 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3/Desktop/aircrack-ng-1.1 ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:pi-rho/security
+Nov  3 18:30:40 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:30:49 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:30:55 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3/Desktop/aircrack-ng-1.1 ; USER=root ; COMMAND=/usr/bin/apt-get install aircrack-ng
+Nov  3 18:30:55 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:31:01 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:31:04 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3/Desktop/aircrack-ng-1.1 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  3 18:31:04 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:31:14 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:31:22 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3/Desktop/aircrack-ng-1.1 ; USER=root ; COMMAND=/usr/bin/apt-get install aircrack-ng
+Nov  3 18:31:22 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:31:32 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:31:42 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3/Desktop/aircrack-ng-1.1 ; USER=root ; COMMAND=/usr/bin/apt-get install hydra
+Nov  3 18:31:42 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:31:51 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:31:56 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3/Desktop/aircrack-ng-1.1 ; USER=root ; COMMAND=/usr/bin/apt-get install hydra-gtk
+Nov  3 18:31:56 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  3 18:32:01 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:44:58 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 18:44:58 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 18:44:58 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  3 18:44:58 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 18:44:58 wh1t3r0s3-laptop dbus[623]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.16" (uid=103 pid=1107 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1028 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  3 18:44:59 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 18:44:59 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 18:44:59 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  3 18:45:28 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Nov  3 18:45:28 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  3 18:45:28 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 18:45:28 wh1t3r0s3-laptop gnome-keyring-daemon[1397]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 18:45:28 wh1t3r0s3-laptop gnome-keyring-daemon[1397]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 18:45:28 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.22 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  3 23:38:38 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 23:38:38 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 23:38:38 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user lightdm by (uid=0)
+Nov  3 23:38:38 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 23:38:39 wh1t3r0s3-laptop dbus[558]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.15" (uid=103 pid=1130 comm="/usr/sbin/lightdm-gtk-greeter ") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.13" (uid=0 pid=1051 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Nov  3 23:38:39 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  3 23:38:39 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  3 23:38:39 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  3 23:46:36 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session closed for user lightdm
+Nov  3 23:46:36 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  3 23:46:36 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  3 23:46:36 wh1t3r0s3-laptop gnome-keyring-daemon[1455]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 23:46:36 wh1t3r0s3-laptop gnome-keyring-daemon[1455]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  3 23:46:37 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.23 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  3 23:47:07 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=unknown ; PWD=/tmp/update-manager-W6HGPv ; USER=root ; COMMAND=/tmp/update-manager-W6HGPv/trusty
+Nov  3 23:47:07 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by (uid=1000)
+Nov  4 00:10:04 wh1t3r0s3-laptop groupadd[4139]: group added to /etc/group: name=utempter, GID=116
+Nov  4 00:10:04 wh1t3r0s3-laptop groupadd[4139]: group added to /etc/gshadow: name=utempter
+Nov  4 00:10:04 wh1t3r0s3-laptop groupadd[4139]: new group: name=utempter, GID=116
+Nov  4 00:11:10 wh1t3r0s3-laptop groupadd[19778]: group added to /etc/group: name=scanner, GID=117
+Nov  4 00:11:10 wh1t3r0s3-laptop groupadd[19778]: group added to /etc/gshadow: name=scanner
+Nov  4 00:11:10 wh1t3r0s3-laptop groupadd[19778]: new group: name=scanner, GID=117
+Nov  4 00:11:35 wh1t3r0s3-laptop useradd[25747]: new user: name=dnsmasq, UID=106, GID=65534, home=/var/lib/misc, shell=/bin/false
+Nov  4 00:11:35 wh1t3r0s3-laptop usermod[25752]: change user 'dnsmasq' password
+Nov  4 00:11:35 wh1t3r0s3-laptop chage[25757]: changed password expiry for dnsmasq
+Nov  4 00:11:35 wh1t3r0s3-laptop chfn[25760]: changed user 'dnsmasq' information
+Nov  4 00:11:39 wh1t3r0s3-laptop sg[25996]: user 'root' (login '???' on pts/1) switched to group 'mlocate'
+Nov  4 00:11:39 wh1t3r0s3-laptop sg[25996]: user 'root' (login '???' on pts/1) returned to group 'root'
+Nov  4 00:13:17 wh1t3r0s3-laptop groupadd[483]: group added to /etc/group: name=whoopsie, GID=118
+Nov  4 00:13:17 wh1t3r0s3-laptop groupadd[483]: group added to /etc/gshadow: name=whoopsie
+Nov  4 00:13:17 wh1t3r0s3-laptop groupadd[483]: new group: name=whoopsie, GID=118
+Nov  4 00:13:17 wh1t3r0s3-laptop useradd[487]: new user: name=whoopsie, UID=107, GID=118, home=/nonexistent, shell=/bin/false
+Nov  4 00:13:17 wh1t3r0s3-laptop usermod[492]: change user 'whoopsie' password
+Nov  4 00:13:18 wh1t3r0s3-laptop chage[497]: changed password expiry for whoopsie
+Nov  4 00:13:19 wh1t3r0s3-laptop dbus[558]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.38" (uid=107 pid=540 comm="whoopsie ") interface="org.freedesktop.DBus.Properties" member="Get" error name="(unset)" requested_reply="0" destination="org.freedesktop.NetworkManager" (uid=0 pid=781 comm="NetworkManager ")
+Nov  4 00:16:07 wh1t3r0s3-laptop systemd-logind[4658]: New seat seat0.
+Nov  4 00:16:14 wh1t3r0s3-laptop groupadd[4974]: group added to /etc/group: name=avahi, GID=119
+Nov  4 00:16:14 wh1t3r0s3-laptop groupadd[4974]: group added to /etc/gshadow: name=avahi
+Nov  4 00:16:14 wh1t3r0s3-laptop groupadd[4974]: new group: name=avahi, GID=119
+Nov  4 00:16:14 wh1t3r0s3-laptop useradd[4978]: new user: name=avahi, UID=108, GID=119, home=/var/run/avahi-daemon, shell=/bin/false
+Nov  4 00:16:14 wh1t3r0s3-laptop usermod[4983]: change user 'avahi' password
+Nov  4 00:16:14 wh1t3r0s3-laptop chage[4988]: changed password expiry for avahi
+Nov  4 00:16:14 wh1t3r0s3-laptop chfn[4991]: changed user 'avahi' information
+Nov  4 00:16:17 wh1t3r0s3-laptop gpasswd[5208]: user syslog added by root to group adm
+Nov  4 00:16:19 wh1t3r0s3-laptop groupadd[5361]: group added to /etc/group: name=colord, GID=120
+Nov  4 00:16:19 wh1t3r0s3-laptop groupadd[5361]: group added to /etc/gshadow: name=colord
+Nov  4 00:16:19 wh1t3r0s3-laptop groupadd[5361]: new group: name=colord, GID=120
+Nov  4 00:16:19 wh1t3r0s3-laptop useradd[5365]: new user: name=colord, UID=109, GID=120, home=/var/lib/colord, shell=/bin/false
+Nov  4 00:16:19 wh1t3r0s3-laptop usermod[5370]: change user 'colord' password
+Nov  4 00:16:19 wh1t3r0s3-laptop chage[5375]: changed password expiry for colord
+Nov  4 00:16:19 wh1t3r0s3-laptop chfn[5378]: changed user 'colord' information
+Nov  4 00:17:01 wh1t3r0s3-laptop CRON[12400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  4 00:17:01 wh1t3r0s3-laptop CRON[12400]: pam_unix(cron:session): session closed for user root
+Nov  4 00:24:40 wh1t3r0s3-laptop systemd-logind[769]: New seat seat0.
+Nov  4 00:24:41 wh1t3r0s3-laptop systemd-logind[769]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 00:24:41 wh1t3r0s3-laptop systemd-logind[769]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 00:24:41 wh1t3r0s3-laptop systemd-logind[769]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 00:24:47 wh1t3r0s3-laptop dbus[736]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=870 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=838 comm="NetworkManager ")
+Nov  4 00:24:53 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 00:24:53 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 00:24:53 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 00:24:53 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 00:24:53 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 00:24:53 wh1t3r0s3-laptop systemd-logind[769]: New session c1 of user lightdm.
+Nov  4 00:24:53 wh1t3r0s3-laptop systemd-logind[769]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 00:24:53 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 00:24:56 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 00:24:56 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 00:24:56 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 00:24:56 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 00:24:56 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 00:25:06 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=wh1t3r0s3
+Nov  4 00:25:08 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 00:25:08 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 00:25:08 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 00:25:08 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 00:25:08 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 00:27:31 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 00:27:31 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 00:27:31 wh1t3r0s3-laptop systemd-logind[769]: New session c2 of user wh1t3r0s3.
+Nov  4 00:27:31 wh1t3r0s3-laptop systemd-logind[769]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 00:27:31 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 00:27:33 wh1t3r0s3-laptop gnome-keyring-daemon[1506]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 00:27:33 wh1t3r0s3-laptop gnome-keyring-daemon[1506]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 00:27:33 wh1t3r0s3-laptop gnome-keyring-daemon[1506]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 00:27:35 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.28 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 00:27:36 wh1t3r0s3-laptop systemd-logind[769]: Removed session c1.
+Nov  4 00:41:39 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/boot/grub ; USER=root ; COMMAND=/usr/bin/vim /etc/default/grub
+Nov  4 00:41:39 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 00:42:06 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 00:43:20 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/boot/grub ; USER=root ; COMMAND=/sbin/reboot now
+Nov  4 00:43:20 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 00:43:20 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 00:43:39 wh1t3r0s3-laptop systemd-logind[624]: New seat seat0.
+Nov  4 00:43:39 wh1t3r0s3-laptop systemd-logind[624]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 00:43:39 wh1t3r0s3-laptop systemd-logind[624]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 00:43:39 wh1t3r0s3-laptop systemd-logind[624]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 00:43:44 wh1t3r0s3-laptop dbus[421]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1093 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=977 comm="NetworkManager ")
+Nov  4 00:43:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 00:43:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 00:43:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 00:43:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 00:43:45 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 00:43:45 wh1t3r0s3-laptop systemd-logind[624]: New session c1 of user lightdm.
+Nov  4 00:43:45 wh1t3r0s3-laptop systemd-logind[624]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 00:43:45 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 00:43:46 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 00:43:46 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 00:43:46 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 00:43:46 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 00:43:46 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 00:43:51 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 00:43:51 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 00:43:51 wh1t3r0s3-laptop systemd-logind[624]: New session c2 of user wh1t3r0s3.
+Nov  4 00:43:51 wh1t3r0s3-laptop systemd-logind[624]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 00:43:51 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 00:43:53 wh1t3r0s3-laptop gnome-keyring-daemon[1487]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 00:43:53 wh1t3r0s3-laptop gnome-keyring-daemon[1487]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 00:43:53 wh1t3r0s3-laptop gnome-keyring-daemon[1487]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 00:43:56 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.26 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 00:43:57 wh1t3r0s3-laptop systemd-logind[624]: Removed session c1.
+Nov  4 00:44:46 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/4 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/sbin/update-grub
+Nov  4 00:44:46 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 00:44:49 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 00:45:10 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/4 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/sbin/reboot now
+Nov  4 00:45:10 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 00:45:11 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 00:45:37 wh1t3r0s3-laptop systemd-logind[675]: New seat seat0.
+Nov  4 00:45:37 wh1t3r0s3-laptop systemd-logind[675]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 00:45:37 wh1t3r0s3-laptop systemd-logind[675]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 00:45:37 wh1t3r0s3-laptop systemd-logind[675]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 00:45:42 wh1t3r0s3-laptop dbus[560]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1130 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=978 comm="NetworkManager ")
+Nov  4 00:45:42 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 00:45:42 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 00:45:42 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 00:45:42 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 00:45:42 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 00:45:42 wh1t3r0s3-laptop systemd-logind[675]: New session c1 of user lightdm.
+Nov  4 00:45:42 wh1t3r0s3-laptop systemd-logind[675]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 00:45:42 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 00:45:43 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 00:45:43 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 00:45:43 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 00:45:43 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 00:45:43 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 00:47:36 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 00:47:36 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 00:47:36 wh1t3r0s3-laptop systemd-logind[675]: New session c2 of user wh1t3r0s3.
+Nov  4 00:47:36 wh1t3r0s3-laptop systemd-logind[675]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 00:47:36 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 00:47:38 wh1t3r0s3-laptop gnome-keyring-daemon[1571]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 00:47:38 wh1t3r0s3-laptop gnome-keyring-daemon[1571]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 00:47:38 wh1t3r0s3-laptop gnome-keyring-daemon[1571]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 00:47:39 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.28 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 00:47:40 wh1t3r0s3-laptop systemd-logind[675]: Removed session c1.
+Nov  4 00:47:57 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/7 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  4 00:47:57 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 00:48:11 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 00:48:19 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/7 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Nov  4 00:48:19 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 00:48:19 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 00:48:35 wh1t3r0s3-laptop systemd-logind[675]: System is powering down.
+Nov  4 01:47:36 wh1t3r0s3-laptop systemd-logind[573]: New seat seat0.
+Nov  4 01:47:36 wh1t3r0s3-laptop systemd-logind[573]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 01:47:36 wh1t3r0s3-laptop systemd-logind[573]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 01:47:36 wh1t3r0s3-laptop systemd-logind[573]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 01:47:41 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 01:47:41 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 01:47:41 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 01:47:41 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 01:47:41 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 01:47:41 wh1t3r0s3-laptop systemd-logind[573]: New session c1 of user lightdm.
+Nov  4 01:47:41 wh1t3r0s3-laptop systemd-logind[573]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 01:47:41 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 01:47:43 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 01:47:43 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 01:47:43 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 01:47:43 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 01:47:43 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 01:47:51 wh1t3r0s3-laptop dbus[484]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1122 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=981 comm="NetworkManager ")
+Nov  4 01:48:15 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 01:48:15 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 01:48:15 wh1t3r0s3-laptop systemd-logind[573]: New session c2 of user wh1t3r0s3.
+Nov  4 01:48:15 wh1t3r0s3-laptop systemd-logind[573]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 01:48:15 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 01:48:17 wh1t3r0s3-laptop gnome-keyring-daemon[1524]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 01:48:17 wh1t3r0s3-laptop gnome-keyring-daemon[1524]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 01:48:17 wh1t3r0s3-laptop gnome-keyring-daemon[1524]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 01:48:19 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.27 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 01:48:20 wh1t3r0s3-laptop systemd-logind[573]: Removed session c1.
+Nov  4 01:58:32 wh1t3r0s3-laptop systemd-logind[573]: System is powering down.
+Nov  4 02:11:44 wh1t3r0s3-laptop systemd-logind[633]: New seat seat0.
+Nov  4 02:11:44 wh1t3r0s3-laptop systemd-logind[633]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 02:11:44 wh1t3r0s3-laptop systemd-logind[633]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 02:11:44 wh1t3r0s3-laptop systemd-logind[633]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 02:11:49 wh1t3r0s3-laptop dbus[514]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1092 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=1003 comm="NetworkManager ")
+Nov  4 02:11:51 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 02:11:51 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 02:11:51 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 02:11:51 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 02:11:51 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 02:11:51 wh1t3r0s3-laptop systemd-logind[633]: New session c1 of user lightdm.
+Nov  4 02:11:51 wh1t3r0s3-laptop systemd-logind[633]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 02:11:51 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 02:11:53 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 02:11:53 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 02:11:53 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 02:11:53 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 02:11:53 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 02:17:01 wh1t3r0s3-laptop CRON[1447]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  4 02:17:01 wh1t3r0s3-laptop CRON[1447]: pam_unix(cron:session): session closed for user root
+Nov  4 03:17:01 wh1t3r0s3-laptop CRON[1450]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  4 03:17:01 wh1t3r0s3-laptop CRON[1450]: pam_unix(cron:session): session closed for user root
+Nov  4 04:17:01 wh1t3r0s3-laptop CRON[1453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  4 04:17:01 wh1t3r0s3-laptop CRON[1453]: pam_unix(cron:session): session closed for user root
+Nov  4 04:45:37 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 04:45:37 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 04:45:37 wh1t3r0s3-laptop systemd-logind[633]: New session c2 of user wh1t3r0s3.
+Nov  4 04:45:37 wh1t3r0s3-laptop systemd-logind[633]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 04:45:37 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 04:45:40 wh1t3r0s3-laptop gnome-keyring-daemon[1572]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 04:45:40 wh1t3r0s3-laptop gnome-keyring-daemon[1572]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 04:45:40 wh1t3r0s3-laptop gnome-keyring-daemon[1572]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 04:45:41 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.28 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 04:45:42 wh1t3r0s3-laptop systemd-logind[633]: Removed session c1.
+Nov  4 04:46:29 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/5 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get install thunderbird
+Nov  4 04:46:29 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 04:47:07 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 04:53:43 wh1t3r0s3-laptop systemd-logind[633]: System is powering down.
+Nov  4 05:41:08 wh1t3r0s3-laptop systemd-logind[656]: New seat seat0.
+Nov  4 05:41:08 wh1t3r0s3-laptop systemd-logind[656]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 05:41:08 wh1t3r0s3-laptop systemd-logind[656]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 05:41:08 wh1t3r0s3-laptop systemd-logind[656]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 05:41:12 wh1t3r0s3-laptop dbus[570]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1092 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=790 comm="NetworkManager ")
+Nov  4 05:41:14 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 05:41:14 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 05:41:14 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 05:41:14 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 05:41:14 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 05:41:14 wh1t3r0s3-laptop systemd-logind[656]: New session c1 of user lightdm.
+Nov  4 05:41:14 wh1t3r0s3-laptop systemd-logind[656]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 05:41:14 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 05:41:15 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 05:41:15 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 05:41:15 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 05:41:15 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 05:41:15 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 05:41:22 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 05:41:22 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 05:41:22 wh1t3r0s3-laptop systemd-logind[656]: New session c2 of user wh1t3r0s3.
+Nov  4 05:41:22 wh1t3r0s3-laptop systemd-logind[656]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 05:41:22 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 05:41:24 wh1t3r0s3-laptop gnome-keyring-daemon[1483]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 05:41:24 wh1t3r0s3-laptop gnome-keyring-daemon[1483]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 05:41:24 wh1t3r0s3-laptop gnome-keyring-daemon[1483]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 05:41:36 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.26 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 05:41:37 wh1t3r0s3-laptop systemd-logind[656]: Removed session c1.
+Nov  4 05:44:12 wh1t3r0s3-laptop systemd-logind[656]: System is powering down.
+Nov  4 09:14:59 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:14:59 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:14:59 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:14:59 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:14:59 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 09:14:59 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 09:15:00 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:15:00 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:15:00 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:15:00 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:15:00 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 09:15:00 wh1t3r0s3-laptop dbus[405]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1179 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=676 comm="NetworkManager ")
+Nov  4 09:15:07 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 09:15:07 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 09:15:07 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 09:15:08 wh1t3r0s3-laptop gnome-keyring-daemon[1468]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 09:15:08 wh1t3r0s3-laptop gnome-keyring-daemon[1468]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 09:15:08 wh1t3r0s3-laptop gnome-keyring-daemon[1468]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 09:15:09 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.25 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 09:16:02 wh1t3r0s3-laptop systemd-logind[482]: New seat seat0.
+Nov  4 09:16:03 wh1t3r0s3-laptop systemd-logind[482]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 09:16:03 wh1t3r0s3-laptop systemd-logind[482]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 09:16:03 wh1t3r0s3-laptop systemd-logind[482]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 09:16:05 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:16:05 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:16:05 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:16:05 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:16:05 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 09:16:05 wh1t3r0s3-laptop systemd-logind[482]: New session c1 of user lightdm.
+Nov  4 09:16:05 wh1t3r0s3-laptop systemd-logind[482]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 09:16:05 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 09:16:06 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:16:06 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:16:06 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:16:06 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:16:06 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 09:16:06 wh1t3r0s3-laptop dbus[380]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1192 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=723 comm="NetworkManager ")
+Nov  4 09:16:10 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 09:16:10 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 09:16:10 wh1t3r0s3-laptop systemd-logind[482]: Removed session c1.
+Nov  4 09:16:10 wh1t3r0s3-laptop systemd-logind[482]: New session c2 of user wh1t3r0s3.
+Nov  4 09:16:10 wh1t3r0s3-laptop systemd-logind[482]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 09:16:10 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 09:16:11 wh1t3r0s3-laptop gnome-keyring-daemon[1475]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 09:16:11 wh1t3r0s3-laptop gnome-keyring-daemon[1475]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 09:16:11 wh1t3r0s3-laptop gnome-keyring-daemon[1475]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 09:16:12 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.25 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 09:16:54 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/6 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get remove
+Nov  4 09:16:54 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:16:54 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:16:58 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/6 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get autoremove
+Nov  4 09:16:58 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:16:58 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:17:02 wh1t3r0s3-laptop CRON[1889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  4 09:17:02 wh1t3r0s3-laptop CRON[1889]: pam_unix(cron:session): session closed for user root
+Nov  4 09:17:02 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/6 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get clean
+Nov  4 09:17:02 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:17:02 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:17:05 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/6 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get autoclean
+Nov  4 09:17:05 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:17:10 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:26:30 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:26:30 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:26:30 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:26:30 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:26:30 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 09:26:30 wh1t3r0s3-laptop systemd-logind[482]: New session c3 of user lightdm.
+Nov  4 09:26:30 wh1t3r0s3-laptop systemd-logind[482]: Linked /tmp/.X11-unix/X1 to /run/user/103/X11-display.
+Nov  4 09:26:30 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :1
+Nov  4 09:26:31 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:26:31 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:26:31 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:26:31 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:26:31 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 09:29:01 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 09:39:46 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:tualatrix/ppa
+Nov  4 09:39:46 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:39:49 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:39:57 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov  4 09:39:57 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:40:07 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:40:14 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get install ubuntu-tweak
+Nov  4 09:40:14 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:40:39 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:48:03 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/apt-get purge linux-image-3.2.0-92-generic
+Nov  4 09:48:03 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:48:13 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:54:43 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/sbin/update-grub2
+Nov  4 09:54:43 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:54:44 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:56:21 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/vim /boot/grub/grub.cfg
+Nov  4 09:56:21 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:56:53 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:57:02 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/0 ; PWD=/home/wh1t3r0s3 ; USER=root ; COMMAND=/usr/bin/vim /etc/default/grub
+Nov  4 09:57:02 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 09:57:05 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 09:57:20 wh1t3r0s3-laptop systemd-logind[482]: Removed session c3.
+Nov  4 09:57:24 wh1t3r0s3-laptop systemd-logind[482]: System is rebooting.
+Nov  4 09:57:42 wh1t3r0s3-laptop systemd-logind[459]: New seat seat0.
+Nov  4 09:57:42 wh1t3r0s3-laptop systemd-logind[459]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 09:57:42 wh1t3r0s3-laptop systemd-logind[459]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 09:57:42 wh1t3r0s3-laptop systemd-logind[459]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 09:57:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:57:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:57:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:57:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:57:45 wh1t3r0s3-laptop dbus[411]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1131 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=694 comm="NetworkManager ")
+Nov  4 09:57:45 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 09:57:45 wh1t3r0s3-laptop systemd-logind[459]: New session c1 of user lightdm.
+Nov  4 09:57:45 wh1t3r0s3-laptop systemd-logind[459]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 09:57:45 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 09:57:46 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 09:57:46 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 09:57:46 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 09:57:46 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 09:57:46 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 09:58:04 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 09:58:04 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 09:58:04 wh1t3r0s3-laptop systemd-logind[459]: Removed session c1.
+Nov  4 09:58:04 wh1t3r0s3-laptop systemd-logind[459]: New session c2 of user wh1t3r0s3.
+Nov  4 09:58:04 wh1t3r0s3-laptop systemd-logind[459]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 09:58:04 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 09:58:06 wh1t3r0s3-laptop gnome-keyring-daemon[1518]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 09:58:06 wh1t3r0s3-laptop gnome-keyring-daemon[1518]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 09:58:06 wh1t3r0s3-laptop gnome-keyring-daemon[1518]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 09:58:07 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.25 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 09:58:16 wh1t3r0s3-laptop systemd-logind[459]: System is powering down.
+Nov  4 10:10:52 wh1t3r0s3-laptop systemd-logind[527]: New seat seat0.
+Nov  4 10:10:52 wh1t3r0s3-laptop systemd-logind[527]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 10:10:52 wh1t3r0s3-laptop systemd-logind[527]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 10:10:52 wh1t3r0s3-laptop systemd-logind[527]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov  4 10:10:56 wh1t3r0s3-laptop dbus[413]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1095 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=759 comm="NetworkManager ")
+Nov  4 10:10:56 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 10:10:56 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 10:10:56 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 10:10:56 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 10:10:57 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 10:10:57 wh1t3r0s3-laptop systemd-logind[527]: New session c1 of user lightdm.
+Nov  4 10:10:57 wh1t3r0s3-laptop systemd-logind[527]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov  4 10:10:57 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 10:10:57 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 10:10:57 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 10:10:57 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 10:10:57 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 10:10:57 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 10:11:01 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 10:11:01 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 10:11:01 wh1t3r0s3-laptop systemd-logind[527]: Removed session c1.
+Nov  4 10:11:01 wh1t3r0s3-laptop systemd-logind[527]: New session c2 of user wh1t3r0s3.
+Nov  4 10:11:01 wh1t3r0s3-laptop systemd-logind[527]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov  4 10:11:01 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 10:11:02 wh1t3r0s3-laptop gnome-keyring-daemon[1471]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 10:11:02 wh1t3r0s3-laptop gnome-keyring-daemon[1471]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 10:11:02 wh1t3r0s3-laptop gnome-keyring-daemon[1471]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 10:11:04 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.25 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 10:11:24 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/2 ; PWD=/mnt ; USER=root ; COMMAND=/bin/mkdir puppy
+Nov  4 10:11:24 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 10:11:24 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 10:11:34 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/2 ; PWD=/mnt ; USER=root ; COMMAND=/bin/mount /dev/sda1 ./puppy/
+Nov  4 10:11:34 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 10:11:34 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 10:12:00 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/2 ; PWD=/mnt/puppy ; USER=root ; COMMAND=/bin/rm root/get_external_ip.sh root/tweet_alarm.sh
+Nov  4 10:12:00 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 10:12:00 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 10:12:17 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/2 ; PWD=/mnt/puppy ; USER=root ; COMMAND=/bin/umount .
+Nov  4 10:12:17 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 10:12:17 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 10:12:44 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/2 ; PWD=/mnt ; USER=root ; COMMAND=/bin/umount ./puppy
+Nov  4 10:12:44 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 10:12:44 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 10:12:50 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/2 ; PWD=/mnt ; USER=root ; COMMAND=/bin/mount /dev/sda1 ./puppy/
+Nov  4 10:12:50 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 10:12:50 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 10:13:04 wh1t3r0s3-laptop sudo: wh1t3r0s3 : TTY=pts/2 ; PWD=/mnt ; USER=root ; COMMAND=/bin/umount ./puppy
+Nov  4 10:13:04 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session opened for user root by wh1t3r0s3(uid=0)
+Nov  4 10:13:05 wh1t3r0s3-laptop sudo: pam_unix(sudo:session): session closed for user root
+Nov  4 10:17:01 wh1t3r0s3-laptop CRON[2090]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  4 10:17:01 wh1t3r0s3-laptop CRON[2090]: pam_unix(cron:session): session closed for user root
+Nov  4 10:38:46 wh1t3r0s3-laptop systemd-logind[527]: System is powering down.
+Nov  4 21:12:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 21:12:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 21:12:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 21:12:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 21:12:45 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 21:12:45 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 21:12:46 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 21:12:46 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 21:12:46 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 21:12:46 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 21:12:46 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 21:12:56 wh1t3r0s3-laptop dbus[390]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.17" (uid=0 pid=1143 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.7" (uid=0 pid=638 comm="NetworkManager ")
+Nov  4 21:13:04 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 21:13:04 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 21:13:04 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 21:13:04 wh1t3r0s3-laptop gnome-keyring-daemon[1436]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 21:13:04 wh1t3r0s3-laptop gnome-keyring-daemon[1436]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 21:13:04 wh1t3r0s3-laptop gnome-keyring-daemon[1436]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 21:13:05 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.27 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  4 21:17:01 wh1t3r0s3-laptop CRON[1824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  4 21:17:01 wh1t3r0s3-laptop CRON[1824]: pam_unix(cron:session): session closed for user root
+Nov  4 22:03:51 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 22:03:51 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 22:03:51 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 22:03:51 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 22:03:51 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov  4 22:03:51 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 22:03:52 wh1t3r0s3-laptop dbus[388]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.17" (uid=0 pid=1112 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=634 comm="NetworkManager ")
+Nov  4 22:03:52 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov  4 22:03:52 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov  4 22:03:52 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov  4 22:03:52 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov  4 22:03:52 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov  4 22:03:56 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov  4 22:03:56 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov  4 22:03:56 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov  4 22:03:57 wh1t3r0s3-laptop gnome-keyring-daemon[1431]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 22:03:57 wh1t3r0s3-laptop gnome-keyring-daemon[1431]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov  4 22:03:57 wh1t3r0s3-laptop gnome-keyring-daemon[1431]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov  4 22:03:58 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.27 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 11 00:03:38 wh1t3r0s3-laptop systemd-logind[683]: New seat seat0.
+Nov 11 00:03:38 wh1t3r0s3-laptop systemd-logind[683]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 11 00:03:38 wh1t3r0s3-laptop systemd-logind[683]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 11 00:03:38 wh1t3r0s3-laptop systemd-logind[683]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov 11 00:03:42 wh1t3r0s3-laptop dbus[571]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1096 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=964 comm="NetworkManager ")
+Nov 11 00:03:44 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov 11 00:03:44 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov 11 00:03:44 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 11 00:03:44 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 11 00:03:44 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov 11 00:03:44 wh1t3r0s3-laptop systemd-logind[683]: New session c1 of user lightdm.
+Nov 11 00:03:44 wh1t3r0s3-laptop systemd-logind[683]: Linked /tmp/.X11-unix/X0 to /run/user/103/X11-display.
+Nov 11 00:03:44 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm-greeter:session): nox11 mode, ignoring PAM_TTY :0
+Nov 11 00:03:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_gnome_keyring.so): /lib/security/pam_gnome_keyring.so: cannot open shared object file: No such file or directory
+Nov 11 00:03:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_gnome_keyring.so
+Nov 11 00:03:45 wh1t3r0s3-laptop lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 11 00:03:45 wh1t3r0s3-laptop lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 11 00:03:45 wh1t3r0s3-laptop lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "wh1t3r0s3"
+Nov 11 00:03:52 wh1t3r0s3-laptop lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Nov 11 00:03:52 wh1t3r0s3-laptop lightdm: pam_unix(lightdm:session): session opened for user wh1t3r0s3 by (uid=0)
+Nov 11 00:03:52 wh1t3r0s3-laptop systemd-logind[683]: Removed session c1.
+Nov 11 00:03:52 wh1t3r0s3-laptop systemd-logind[683]: New session c2 of user wh1t3r0s3.
+Nov 11 00:03:52 wh1t3r0s3-laptop systemd-logind[683]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+Nov 11 00:03:52 wh1t3r0s3-laptop lightdm: pam_ck_connector(lightdm:session): nox11 mode, ignoring PAM_TTY :0
+Nov 11 00:04:05 wh1t3r0s3-laptop gnome-keyring-daemon[1527]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov 11 00:04:05 wh1t3r0s3-laptop gnome-keyring-daemon[1527]: Gkm: using old keyring directory: /home/wh1t3r0s3/.gnome2/keyrings
+Nov 11 00:04:05 wh1t3r0s3-laptop gnome-keyring-daemon[1527]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+Nov 11 00:04:07 wh1t3r0s3-laptop polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.26 [/usr/bin/lxsession -s Lubuntu -e LXDE], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 11 00:07:05 wh1t3r0s3-laptop systemd-logind[683]: System is powering down.

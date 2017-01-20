@@ -1,0 +1,21 @@
+ total : 40/70
+Testing md5_length_extension	20.0/20	
+3.2.1.2.txt *Passed*
+submission : token=01f146d114530fda216c6a47bffa0410&user=admin&command1=ListFiles&command2=NoOp%80%00%00%00%00%98%01%00%00%00%00%00%00&command3=DeleteAllFiles
+expected   : token=01f146d114530fda216c6a47bffa0410&user=admin&command1=ListFiles&command2=NoOp%80%00%00%00%00%98%01%00%00%00%00%00%00&command3=DeleteAllFiles
+
+3.2.1.2.py *Passed*
+
+Testing break_rsa	0/30	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/break_rsa.py", line 59, in <module>', '    output = sanitize(output)', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/break_rsa.py", line 18, in sanitize', "    if text[-1] == 'L':", 'IndexError: string index out of range', '']
+
+Testing md5_goodevil_collision	20.0/20	
+3.2.3 MD5 *Passed*
+
+3.2.3 Output *Passed*
+
+MD5 of good.py, evil.py: 42dc9c24939f1bb79712435d8978a868, 42dc9c24939f1bb79712435d8978a868
+
+Output of good.py: I come in peace.
+Output of evil.py: Prepare to be destroyed!
+

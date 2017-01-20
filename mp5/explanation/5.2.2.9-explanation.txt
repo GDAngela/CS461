@@ -1,0 +1,7 @@
+We think the suspect is guilty of murdering the victim for numerous reasons.
+First of all, the suspect has searched multiple times for things like how to murder people, things including arsenic, mercury, and toxic candy. He also read an article titled "10 Poisons Used to Kill People", which would not interest a normal person. 
+Secondly, the log and bash history files shows that he actually tried to broke into the victim's machine, and succeeded. 
+Thirdly, we found a file titled "evilplan" on the suspect's machine, and we found that he intentionally deleted the file, probably to destroy any evidence of his murdering the suspect. 
+Fourthly, on the suspect's machine, we found an encrypted file that contains the login password to the machine of the victim.
+Fifthly, the suspect bought a ticket to escape, and since he was a little worried that he couldn't escape on time, he emailed the transportation company to ensure that he received the ticket on time.
+All of the above evidence makes this guy highly suspicious of murdering. 

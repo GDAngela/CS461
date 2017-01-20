@@ -1,0 +1,22 @@
+ total : 0/20
+Testing python_exercise	0/2	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/python_exercise.py", line 7, in <module>', '    import crypto_gen_tools', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/../../file_generator/crypto_gen_tools.py", line 4, in <module>', '    import Crypto.Hash.SHA256 as SHA256', 'ImportError: No module named Crypto.Hash.SHA256', '']
+
+Testing substitution_cipher	0/3	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/substitution_cipher.py", line 7, in <module>', '    import crypto_gen_tools', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/../../file_generator/crypto_gen_tools.py", line 4, in <module>', '    import Crypto.Hash.SHA256 as SHA256', 'ImportError: No module named Crypto.Hash.SHA256', '']
+
+Testing decrypt_aes	0/3	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/decrypt_aes.py", line 7, in <module>', '    import crypto_gen_tools', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/../../file_generator/crypto_gen_tools.py", line 4, in <module>', '    import Crypto.Hash.SHA256 as SHA256', 'ImportError: No module named Crypto.Hash.SHA256', '']
+
+Testing weak_aes	0/3	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/weak_aes.py", line 7, in <module>', '    import crypto_gen_tools', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/../../file_generator/crypto_gen_tools.py", line 4, in <module>', '    import Crypto.Hash.SHA256 as SHA256', 'ImportError: No module named Crypto.Hash.SHA256', '']
+
+Testing decrypt_rsa	0/3	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/decrypt_rsa.py", line 7, in <module>', '    import crypto_gen_tools', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/../../file_generator/crypto_gen_tools.py", line 4, in <module>', '    import Crypto.Hash.SHA256 as SHA256', 'ImportError: No module named Crypto.Hash.SHA256', '']
+
+Testing avalanche_effect	0/3	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/avalanche_effect.py", line 4, in <module>', '    from Crypto.Hash import SHA256', 'ImportError: No module named Crypto.Hash', '']
+
+Testing weak_hashing_algorithm	0/3	Malformed output from subgrader, stdout=
+stderr=['Traceback (most recent call last):', '  File "/Users/bennyli/class/ece422/fa16-ece422/_class/_private/mp3/grader/mp3/weak_hashing_algorithm.py", line 4, in <module>', '    from Crypto.Hash import SHA256', 'ImportError: No module named Crypto.Hash', '']
+

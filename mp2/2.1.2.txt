@@ -1,0 +1,18 @@
+use project2;
+
+create table users (
+   id INT NOT NULL AUTO_INCREMENT, 
+   username VARCHAR(32) NOT NULL,
+   password VARCHAR(32) NOT NULL,
+   passwordhash BLOB(16),
+   PRIMARY KEY (id),
+   UNIQUE INDEX (username)
+);
+
+create table history (
+   id INT NOT NULL AUTO_INCREMENT,
+   user_id INT NOT NULL,
+   query VARCHAR(2048) NOT NULL,
+   INDEX (user_id),
+   PRIMARY KEY (id)
+);

